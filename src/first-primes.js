@@ -11,7 +11,16 @@ function isPrime(number) {
   if (number < 3) {
     return true;
   }
-  return false;
+  if (number % 2 === 0) {
+    return false;
+  }
+  if (number % 3 === 0) {
+    return false;
+  }
+  if (number % 4 === 0) {
+    return false;
+  }
+  return true;
 }
 
 // if (number < 2) {
