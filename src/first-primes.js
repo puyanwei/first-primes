@@ -1,8 +1,8 @@
-function firstPrime(number) {
+function firstPrimes(number) {
   if (number < 11) {
     return [];
   }
-  for (var i = number; i > 10; i--) {
+  for (var i = number; number > 10; number--) {
     if (isPrime(number)) {
       return number;
     }

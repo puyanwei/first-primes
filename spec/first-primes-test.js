@@ -1,15 +1,18 @@
-describe("#firstPrime", function() {
+describe("#firstPrimes", function() {
   it("integar 0 should return an empty array", function() {
-    expect(firstPrime(0)).toEqual([]);
+    expect(firstPrimes(0)).toEqual([]);
   });
   it("integar 10 return an empty array", function() {
-    expect(firstPrime(10)).toEqual([]);
+    expect(firstPrimes(10)).toEqual([]);
   });
   it("integar 11 should return 11", function() {
-    expect(firstPrime(11)).toEqual(11);
+    expect(firstPrimes(11)).toEqual(11);
   });
   it("integar 13 should return 13", function() {
-    expect(firstPrime(13)).toEqual(13);
+    expect(firstPrimes(13)).toEqual(13);
+  });
+  it("integar 50 should return 41", function() {
+    expect(firstPrimes(50)).toEqual(47);
   });
 });
 
@@ -51,6 +54,3 @@ describe("#isPrime", function() {
     expect(isPrime(191)).toBe(true);
   });
 });
-
-// firstPrimes(50) // 41
-// firstPrimes(1) // []

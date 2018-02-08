@@ -10,3 +10,7 @@ Find some first primes to K (K included if it is prime) with two digits. ( If no
   firstPrimes(50) // 41
   firstPrimes(1) // []
 ```
+
+I did not understand what "When you find it, you must find number from them, that is maximal after division of its digits." meant even after looking at solutions.
+
+My solution currently finds the biggest prime number closest to the number chosen, or if its a single digit returns an empty array.
