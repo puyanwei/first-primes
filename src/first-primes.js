@@ -2,8 +2,10 @@ function firstPrime(number) {
   if (number < 11) {
     return [];
   }
-  if (number % number === 0 && number % 1 === 0) {
-    return number;
+  for (var i = number; i > 10; i--) {
+    if (isPrime(number)) {
+      return number;
+    }
   }
 }
 
