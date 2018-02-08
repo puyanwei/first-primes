@@ -8,6 +8,9 @@ describe("#firstPrime", function() {
   it("11 should return 11", function() {
     expect(firstPrime(11)).toEqual(11);
   });
+  it("11 should return 11", function() {
+    expect(firstPrime(12)).toEqual(11);
+  });
 });
 
 ```

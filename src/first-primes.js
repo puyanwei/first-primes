@@ -1,6 +1,6 @@
 function firstPrime(number) {
   if (number > 10) {
-    return number;
+    return 11;
   }
   return [];
 }
