@@ -20,14 +20,35 @@ describe("#isPrime", function() {
   it("integar 2 should return true because it is a prime number", function() {
     expect(isPrime(2)).toBe(true);
   });
-  it("integar 3 should return false because it is not a prime number", function() {
-    expect(isPrime(3)).toBe(false);
+  it("integar 3 should return true because it is not a prime number", function() {
+    expect(isPrime(3)).toBe(true);
   });
-  it("integar 4 should return true because it is a prime number", function() {
+  it("integar 4 should return false because it is not a prime number", function() {
     expect(isPrime(4)).toBe(false);
   });
   it("integar 5 should return true because it is a prime number", function() {
     expect(isPrime(5)).toBe(true);
+  });
+  it("integar 6 should return false because it is not a prime number", function() {
+    expect(isPrime(6)).toBe(false);
+  });
+  it("integar 7 should return true because it is a prime number", function() {
+    expect(isPrime(7)).toBe(true);
+  });
+  it("integar 8 should return false because it is not a prime number", function() {
+    expect(isPrime(8)).toBe(false);
+  });
+  it("integar 9 should return false because it is not a prime number", function() {
+    expect(isPrime(9)).toBe(false);
+  });
+  it("integar 10 should return false because it is not a prime number", function() {
+    expect(isPrime(10)).toBe(false);
+  });
+  it("integar 11 should return true because it is a prime number", function() {
+    expect(isPrime(11)).toBe(true);
+  });
+  it("integar 191 should return true because it is a prime number", function() {
+    expect(isPrime(191)).toBe(true);
   });
 });
 
