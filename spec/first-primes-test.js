@@ -1,8 +1,5 @@
-describe("jasmine works", function() {
-  it("working", function() {
-    expect(true).toBe(true);
-  });
-  it("working", function() {
-    expect(false).not.toBe(true);
+describe("#firstPrime", function() {
+  it("0 should return an empty array", function() {
+    expect(firstPrime(0)).toEqual([]);
   });
 });
