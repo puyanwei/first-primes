@@ -6,3 +6,23 @@ function firstPrime(number) {
     return number;
   }
 }
+
+function isPrime(number) {
+  if (number < 3) {
+    return true;
+  }
+  return false;
+}
+
+// if (number < 2) {
+//   return false;
+// } else if ((number = 2)) {
+//   return true;
+// }
+// for (var i = 2; i < number; i++) {
+//   if (number % i === 0) {
+//     return false;
+//   } else if (i === number - 1) {
+//     return true;
+//   }
+// }
